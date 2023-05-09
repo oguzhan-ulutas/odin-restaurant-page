@@ -1,4 +1,5 @@
 /* test if styles are bundling */
 body {
   background-color: blue;
+  /* test img loading */
 }
