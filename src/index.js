@@ -1,7 +1,7 @@
 import './style.css';
 import Icon from './img/restourant.jpg';
 
-console.lg('helööö');
+console.log('helööö');
 
 const divContent = document.querySelector('#content');
 const img = document.createElement('img');
