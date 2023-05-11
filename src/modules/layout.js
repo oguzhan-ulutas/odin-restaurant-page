@@ -14,7 +14,15 @@ function elementCreator(selector, tag, elementClass, content) {
   selectedElement.appendChild(newElement);
 }
 
+function clearDisplay() {
+  const element = document.querySelector('#content');
+  while (element.firstChild) {
+    element.removeChild(element.firstChild);
+  }
+}
+
 export default function layoutCreator() {
+  clearDisplay();
   // Create main layout
   const footerContent = 'The Odin Project 2023 - coded by oguzhan-ulutas ';
   elementCreator('#content', 'div', 'header');
@@ -22,9 +30,9 @@ export default function layoutCreator() {
   elementCreator('#content', 'div', 'footer', footerContent);
 
   // Create headar buttons (as divs)
-  elementCreator('.header', 'div', 'home-div, header-button', 'HOME');
-  elementCreator('.header', 'div', 'menu-div, header-button', 'MENU');
-  elementCreator('.header', 'div', 'about-div, header-button', 'ABOUT');
+  elementCreator('.header', 'div', 'home-div header-button', 'HOME');
+  elementCreator('.header', 'div', 'menu-div header-button', 'MENU');
+  elementCreator('.header', 'div', 'about-div header-button', 'ABOUT');
 
   // Create main content greeting
   const welcome = 'WELCOME TO OUR RESTOURANT';
