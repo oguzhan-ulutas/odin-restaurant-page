@@ -4,11 +4,62 @@
   padding: 0px;
 }
 
+body {
+  margin: 0px;
+}
+
 #content {
   min-width: 100vw;
   min-height: 100vh;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  background-color: rgb(119, 71, 97);
+  margin: 0px;
+
+  display: grid;
+  grid-template-rows: 1fr 12fr 1fr;
+}
+
+.main-content {
   background-image: url('./img/lily-banse--YHSwy6uqvk-unsplash.jpg');
   background-size: cover;
-  background-color: rgb(247, 216, 211);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.welcome {
+  color: white;
+  font-size: 6rem;
+  background-color: rgb(119, 71, 97, 0.8);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.greeting {
+  color: white;
+  font-size: 3rem;
+  max-width: 800px;
+  text-align: center;
+  background-color: rgb(119, 71, 97, 0.8);
+  padding: 2rem;
 }
