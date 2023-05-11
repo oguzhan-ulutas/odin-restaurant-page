@@ -25,4 +25,12 @@ export default function layoutCreator() {
   elementCreator('.header', 'div', 'home-div, header-button', 'HOME');
   elementCreator('.header', 'div', 'menu-div, header-button', 'MENU');
   elementCreator('.header', 'div', 'about-div, header-button', 'ABOUT');
+
+  // Create main content greeting
+  const welcome = 'WELCOME TO OUR RESTOURANT';
+  const greeting = `Our restourant is great. We have perfect foods and drink. 
+    You should come everyday. Thats not enough, you shold also 
+    bring your family, relatives, and friends. You will never regret.`;
+  elementCreator('.main-content', 'div', 'welcome', welcome);
+  elementCreator('.main-content', 'div', 'greeting', greeting);
 }
