@@ -4,8 +4,11 @@
   padding: 0px;
 }
 
-#container {
+#content {
   min-width: 100vw;
   min-height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
+  background-image: url('./img/lily-banse--YHSwy6uqvk-unsplash.jpg');
+  background-size: cover;
+  background-color: rgb(247, 216, 211);
 }
