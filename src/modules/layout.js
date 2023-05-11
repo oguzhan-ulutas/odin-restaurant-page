@@ -1,3 +1,4 @@
+// Creates an element, arrange its class and content, append it to selected element
 function elementCreator(selector, tag, elementClass, content) {
   const selectedElement = document.querySelector(selector);
   const newElement = document.createElement(tag);
@@ -14,5 +15,14 @@ function elementCreator(selector, tag, elementClass, content) {
 }
 
 export default function layoutCreator() {
-  elementCreator('#content', 'div', 'home-div', 'HOME');
+  // Create main layout
+  const footerContent = 'The Odin Project 2023 - coded by oguzhan-ulutas ';
+  elementCreator('#content', 'div', 'header');
+  elementCreator('#content', 'div', 'main-content');
+  elementCreator('#content', 'div', 'footer', footerContent);
+
+  // Create headar buttons (as divs)
+  elementCreator('.header', 'div', 'home-div, header-button', 'HOME');
+  elementCreator('.header', 'div', 'menu-div, header-button', 'MENU');
+  elementCreator('.header', 'div', 'about-div, header-button', 'ABOUT');
 }
