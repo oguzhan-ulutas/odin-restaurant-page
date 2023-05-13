@@ -16,7 +16,7 @@ body {
   margin: 0px;
 
   display: grid;
-  grid-template-rows: 1fr 12fr 1fr;
+  grid-template-rows: 4rem 1fr 2rem;
 }
 
 .main-content {

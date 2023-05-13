@@ -36,6 +36,8 @@ function mainLayoutCreator() {
   elementCreator('.header', 'div', 'about-div header-button', 'ABOUT');
 }
 
+// Add event listenrs to header buttons
+
 export default function layoutCreator() {
   clearDisplay();
   // Create main layout
