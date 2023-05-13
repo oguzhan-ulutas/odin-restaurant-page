@@ -1,1 +1,18 @@
 # odin-restaurant-page
+
+[The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) exercise to learn about ES6 modules and webpack.
+
+[Live Preview](https://oguzhan-ulutas.github.io/odin-sign-up-form/)
+
+**What I learned with this project;**
+
+- npm
+  - Installing Pakages
+  - package.json
+  - Development Dependencies
+- Webpack
+  - Basic Setup
+  - Asset Management
+  - Output Management
+  - Development
+- ES6 Modules

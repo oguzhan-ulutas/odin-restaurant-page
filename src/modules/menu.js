@@ -27,8 +27,8 @@ function foodContainerCreator(foodName, foodImage, foodDescription, foodPrize) {
 }
 
 // I will use same describtion for every food for now.
-const foodDescription =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat, tellus sit amet';
+const foodDescription = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Pellentesque placerat, tellus sit amet`;
 
 export default function menuPageCreator() {
   clearDisplay();
