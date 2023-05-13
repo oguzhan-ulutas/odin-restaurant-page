@@ -2,7 +2,7 @@
 
 [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) exercise to learn about ES6 modules and webpack.
 
-[Live Preview](https://oguzhan-ulutas.github.io/odin-sign-up-form/)
+[Live Preview](https://oguzhan-ulutas.github.io/odin-restaurant-page/)
 
 **What I learned with this project;**
 
