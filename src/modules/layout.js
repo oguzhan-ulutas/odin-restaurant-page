@@ -30,13 +30,13 @@ function mainLayoutCreator() {
   elementCreator('#content', 'div', 'main-content');
   elementCreator('#content', 'div', 'footer', footerContent);
 
-  // Create headar buttons (as divs)
+  // Create header buttons (as divs)
   elementCreator('.header', 'div', 'home-div header-button', 'HOME');
   elementCreator('.header', 'div', 'menu-div header-button', 'MENU');
   elementCreator('.header', 'div', 'about-div header-button', 'ABOUT');
 }
 
-// Add event listenrs to header buttons
+// Add event listeners to header buttons
 
 export default function layoutCreator() {
   clearDisplay();
@@ -44,9 +44,9 @@ export default function layoutCreator() {
   mainLayoutCreator();
 
   // Create main content greeting
-  const welcome = 'WELCOME TO OUR RESTOURANT';
-  const greeting = `Our restourant is great. We have perfect foods and drink. 
-    You should come everyday. Thats not enough, you shold also 
+  const welcome = 'WELCOME TO OUR RESTAURANT';
+  const greeting = `Our restaurant is great. We have perfect foods and drink. 
+    You should come everyday. Thats not enough, you should also 
     bring your family, relatives, and friends. You will never regret.`;
   elementCreator('.main-content', 'div', 'welcome', welcome);
   elementCreator('.main-content', 'div', 'greeting', greeting);

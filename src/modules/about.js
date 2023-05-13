@@ -3,12 +3,14 @@ import { elementCreator, clearDisplay, mainLayoutCreator } from './layout';
 export default function aboutPageCreator() {
   clearDisplay();
   mainLayoutCreator();
-  elementCreator('.main-content', 'div', 'contact', 'Contact Us');
 
-  const address =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat, tellus sit amet';
-  const tel = '+99 999 99 99';
+  elementCreator('.main-content', 'div', 'contact');
+  elementCreator('.contact', 'div', 'contact-us', 'Contact Us');
 
-  elementCreator('.main-content', 'div', 'address', address);
-  elementCreator('.main-content', 'div', 'tel', tel);
+  const address = `ADDRESS: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Pellentesque placerat, tellus sit amet`;
+  const tel = 'TEL: +99 999 99 99';
+
+  elementCreator('.contact', 'div', 'address', address);
+  elementCreator('.contact', 'div', 'tel', tel);
 }

@@ -116,3 +116,17 @@ body {
   color: white;
   margin-bottom: 1rem;
 }
+
+.contact {
+  font-size: 3rem;
+  background-color: rgb(119, 71, 97, 0.8);
+  color: white;
+  margin-top: 15vh;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
