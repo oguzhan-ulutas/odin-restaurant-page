@@ -1,6 +1,7 @@
 import './style.css';
 import layoutCreator from './modules/layout';
 import menuPageCreator from './modules/menu';
+import aboutPageCreator from './modules/about';
 
 function addMenuEventListeners() {
   const headerbuttons = document.querySelectorAll('.header-button');
@@ -16,7 +17,7 @@ function addMenuEventListeners() {
         addMenuEventListeners();
       }
       if (button.classList[0] === 'about-div') {
-        layoutCreator();
+        aboutPageCreator();
         addMenuEventListeners();
       }
     });
