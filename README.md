@@ -16,3 +16,5 @@
   - Output Management
   - Development
 - ES6 Modules
+
+_Photo Credits: Victoria shes, Chad Montano, Eiliv Aceron, Lily Banse_
