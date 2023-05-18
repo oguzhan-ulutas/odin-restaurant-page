@@ -7,7 +7,7 @@
 **What I learned with this project;**
 
 - npm
-  - Installing Pakages
+  - Installing Packages
   - package.json
   - Development Dependencies
 - Webpack

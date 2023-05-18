@@ -4,9 +4,9 @@ import menuPageCreator from './modules/menu';
 import aboutPageCreator from './modules/about';
 
 function addMenuEventListeners() {
-  const headerbuttons = document.querySelectorAll('.header-button');
+  const headerButtons = document.querySelectorAll('.header-button');
 
-  headerbuttons.forEach((button) => {
+  headerButtons.forEach((button) => {
     button.addEventListener('click', () => {
       if (button.classList[0] === 'home-div') {
         layoutCreator();
